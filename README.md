@@ -1,9 +1,15 @@
 # BoseHubbardGutzwiller
 Gutzwiller ansatz for Bose-Hubbard model, with simulated-annealing optimization
 
-## What is this
+## What is this?
+This is a simple python/cython code implementing the Gutzwiller variational
+wave function for the [Bose-Hubbard
+model](https://en.wikipedia.org/wiki/Bose%E2%80%93Hubbard_model).  The search
+for the optimal wave-function parameters is performed through [Simulated
+Annealing](https://en.wikipedia.org/wiki/Simulated_annealing), a Monte Carlo
+method for stochastic optimization.
 
-## How to use it
+## How to use it?
 This code is tested on python 2.7, and it requires the
 [numpy](http://www.numpy.org/) and [cython](http://cython.org/) libraries.
 Before being imported in a python script, the module `lib_gutzwiller_simulated_annealing.pyx` has to be compiled through the command
