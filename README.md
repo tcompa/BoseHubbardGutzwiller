@@ -1,5 +1,5 @@
 # BoseHubbardGutzwiller
-Gutzwiller ansatz for Bose-Hubbard model, with simulated-annealing optimization
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.846905.svg)](https://doi.org/10.5281/zenodo.846905)
 
 ## What is this?
 This is a simple python/cython code implementing the Gutzwiller variational
