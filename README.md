@@ -2,8 +2,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.846905.svg)](https://doi.org/10.5281/zenodo.846905)
 
 ## What is this?
-This is a simple python/cython code implementing the Gutzwiller variational
-wave function for the [Bose-Hubbard
+This is a simple python/cython code implementing the homogeneous Gutzwiller
+variational wave function for the [Bose-Hubbard
 model](https://en.wikipedia.org/wiki/Bose%E2%80%93Hubbard_model).  The search
 for the optimal wave-function parameters is performed through [Simulated
 Annealing](https://en.wikipedia.org/wiki/Simulated_annealing), a Monte Carlo
