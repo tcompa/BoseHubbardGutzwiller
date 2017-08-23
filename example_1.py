@@ -26,6 +26,6 @@ G = SA_for_gutzwiller(G, beta_min=beta_min, beta_max=beta_max,
                       cooling_rate=cooling_rate, n_steps_per_T=n_steps_per_T,
                       quench_to_T_equal_to_0=quench_to_T_equal_to_0,
                       n_steps_at_T_equal_to_0=n_steps_at_T_equal_to_0)
-print 'Simulated-annealing optimization completed'
-print 'Average energy: %.8f' % G.energy
-print 'Average density: %.8f' % G.compute_density()
+print('Simulated-annealing optimization completed')
+print('Average energy: %.8f' % G.energy)
+print('Average density: %.8f' % G.compute_density())

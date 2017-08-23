@@ -28,4 +28,4 @@ for J in numpy.arange(0.005, 0.041, 0.005):
                           cooling_rate=cooling_rate, n_steps_per_T=n_steps_per_T,
                           quench_to_T_equal_to_0=quench_to_T_equal_to_0,
                           n_steps_at_T_equal_to_0=n_steps_at_T_equal_to_0)
-    print 'J=%f energy=%.8f density=%.8f' % (J, G.energy, G.compute_density())
+    print('J=%f energy=%.8f density=%.8f' % (J, G.energy, G.compute_density()))
