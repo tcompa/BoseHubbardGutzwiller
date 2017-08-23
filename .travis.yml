@@ -1,14 +1,11 @@
-language: python
-
-# sudo false implies containerized builds, so we can use cacheing
 sudo: false
-
+language: python
 python:
   - 2.7
-  - 3.6
+  - 3.5
 
 env:
-  - CONDA_DEPS="future numpy cython" PIP_DEPS=""
+  - CONDA_DEPS="pip numpy cython" PIP_DEPS=""
 
 before_install:
 - export MINICONDA=$HOME/miniconda

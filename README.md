@@ -1,5 +1,6 @@
 # BoseHubbardGutzwiller
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.846905.svg)](https://doi.org/10.5281/zenodo.846905)
+[![Build Status](https://travis-ci.org/tcompa/BoseHubbardGutzwiller.svg?branch=master)](https://travis-ci.org/tcompa/BoseHubbardGutzwiller)
 
 ## What is this?
 This is a simple python/cython code implementing the homogeneous Gutzwiller
