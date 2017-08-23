@@ -11,9 +11,12 @@ Annealing](https://en.wikipedia.org/wiki/Simulated_annealing), a Monte Carlo
 method for stochastic optimization.
 
 ## How to use it?
-This code is tested on python 2.7, and it requires the
-[numpy](http://www.numpy.org/) and [cython](http://cython.org/) libraries.
-Before being imported in a python script, the module `lib_gutzwiller_simulated_annealing.pyx` has to be compiled through the command
+This code requires the [numpy](http://www.numpy.org/) and
+[cython](http://cython.org/) libraries, and it is tested on python 2.7, 3.4,
+3.5 and 3.6.
+
+Before being imported in a python script, the module
+`lib_gutzwiller_simulated_annealing.pyx` has to be compiled through the command
 
     $ python setup_cython.py build_ext --inplace
 
