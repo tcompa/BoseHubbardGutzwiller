@@ -12,8 +12,8 @@ method for stochastic optimization.
 
 ## How to use it?
 This code requires the [numpy](http://www.numpy.org/) and
-[cython](http://cython.org/) libraries, and it is tested on python 2.7, 3.4,
-3.5 and 3.6.
+[cython](http://cython.org/) libraries, and it is working on python 2.7, 3.4,
+3.5 and 3.6 (elementary tests are available in the `tests` folder, and they are performed at each commit - see the current status on https://travis-ci.org/tcompa/BoseHubbardGutzwiller).
 
 Before being imported in a python script, the module
 `lib_gutzwiller_simulated_annealing.pyx` has to be compiled through the command
