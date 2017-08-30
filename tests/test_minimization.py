@@ -32,7 +32,7 @@ def test_in_the_superfluid_phase():
     print('[begin stdout]')
     print('>> G.energy:', G.energy)
     print('>> G.compute_density():', G.compute_density())
-    print('>> G.compute_abs_of_average_b()', G.compute_abs_of_average_b())
+    print('>> G.compute_abs_of_average_b():', G.compute_abs_of_average_b())
     print('[end stdout]')
     print()
     assert abs(G.energy + 0.1632796) < 1e-3
@@ -66,7 +66,7 @@ def test_in_the_mott_phase():
     print('[begin stdout]')
     print('>> G.energy:', G.energy)
     print('>> G.compute_density():', G.compute_density())
-    print('>> G.compute_abs_of_average_b()', G.compute_abs_of_average_b())
+    print('>> G.compute_abs_of_average_b():', G.compute_abs_of_average_b())
     print('[end stdout]')
     print()
     
