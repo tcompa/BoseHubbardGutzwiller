@@ -27,6 +27,13 @@ def test_in_the_superfluid_phase():
                           n_steps_per_T=n_steps_per_T,
                           quench_to_T_equal_to_0=quench_to_T_equal_to_0,
                           n_steps_at_T_equal_to_0=n_steps_at_T_equal_to_0)
+    print()
+    print('[begin stdout]')
+    print('>> G.energy:', G.energy)
+    print('>> G.compute_density():', G.compute_density())
+    print('>> G.compute_abs_of_average_b()', G.compute_abs_of_average_b())
+    print('[end stdout]')
+    print()
     assert abs(G.energy + 0.1632796) < 1e-3
     assert abs(G.compute_density() - 0.87358) < 1e-3
     assert abs(G.compute_abs_of_average_b() - 0.61206) < 1e-3
@@ -34,7 +41,7 @@ def test_in_the_superfluid_phase():
 
 def test_in_the_mott_phase():
     z = 6
-    nmax = 4
+    nmax = 3
     U = 1.0
     J = 0.01
     mu = 0.1
@@ -54,7 +61,14 @@ def test_in_the_mott_phase():
                           n_steps_per_T=n_steps_per_T,
                           quench_to_T_equal_to_0=quench_to_T_equal_to_0,
                           n_steps_at_T_equal_to_0=n_steps_at_T_equal_to_0)
-
+    print()
+    print('[begin stdout]')
+    print('>> G.energy:', G.energy)
+    print('>> G.compute_density():', G.compute_density())
+    print('>> G.compute_abs_of_average_b()', G.compute_abs_of_average_b())
+    print('[end stdout]')
+    print()
+    
     assert abs(G.energy + 0.1149999) < 1e-3
     assert abs(G.compute_density() - 1.0) < 1e-3
     assert abs(G.compute_abs_of_average_b() - 0.0) < 1e-3
