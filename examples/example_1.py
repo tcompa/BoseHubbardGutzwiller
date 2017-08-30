@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 from lib_gutzwiller_simulated_annealing import Gutzwiller
 from lib_gutzwiller_simulated_annealing import SA_for_gutzwiller
 

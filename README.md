@@ -12,8 +12,11 @@ method for stochastic optimization.
 
 ## How to use it?
 This code requires the [numpy](http://www.numpy.org/) and
-[cython](http://cython.org/) libraries, and it is working on python 2.7, 3.4,
-3.5 and 3.6 (elementary tests are available in the `tests` folder, and they are performed at each commit - see the current status on https://travis-ci.org/tcompa/BoseHubbardGutzwiller).
+[cython](http://cython.org/) libraries (plus the
+[future](https://pypi.python.org/pypi/future) library, if you need to run the
+tests), and it is working on python 2.7, 3.4, 3.5 and 3.6 (elementary tests are
+available in the `tests` folder, and they are performed at each commit - see
+the current status on https://travis-ci.org/tcompa/BoseHubbardGutzwiller).
 
 Before being imported in a python script, the module
 `lib_gutzwiller_simulated_annealing.pyx` has to be compiled through the command
@@ -22,8 +25,10 @@ Before being imported in a python script, the module
 
 After this step, it can be imported in ordinary python scripts.
 Have a look at the two example files:
-+ In `example_1.py`, a single simulated-annealing run is performed, and the energy and density are computed (using the optimized Gutzwiller coefficients).
-+ In `example_2.py`, a scan of different J values is performed, showing the transition from a Mott insulator (integer density) to a superfluid.
++ In `example_1.py`, a single simulated-annealing run is performed, and the
+energy and density are computed (using the optimized Gutzwiller coefficients).
++ In `example_2.py`, a scan of different J values is performed, showing the
+transition from a Mott insulator (integer density) to a superfluid.
 
 ## Notes
 1. The user should play around with values of the simulated-annealing
