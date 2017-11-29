@@ -10,6 +10,12 @@ for the optimal wave-function parameters is performed through [Simulated
 Annealing](https://en.wikipedia.org/wiki/Simulated_annealing), a Monte Carlo
 method for stochastic optimization.
 
+This program has been used to produce the Gutzwiller phase diagram reported in:
+*Density-dependent hopping for ultracold atoms immersed in a
+Bose-Einstein-condensate vortex lattice* [[arXiv:1711.10234
+cond-mat.quant-gas](https://arxiv.org/abs/1711.10234)], by
+R. H. Chaviguri, T. Comparin, M. Di Liberto, and M. A. Caracanhas.
+
 ## How to use it?
 This code requires the [numpy](http://www.numpy.org/) and
 [cython](http://cython.org/) libraries (plus the
