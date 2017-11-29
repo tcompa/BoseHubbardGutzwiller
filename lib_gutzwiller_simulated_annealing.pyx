@@ -2,6 +2,12 @@
 Program: lib_gutzwiller_simulated_annealing.pyx
 Created: Tue Aug 22 22:25:31 CEST 2017
 Author: Tommaso Comparin
+
+The notation is the same as in Eq. (11) of
+    R. H. Chaviguri, T. Comparin, M. Di Liberto, M. A. Caracanhas,
+    Density-dependent hopping for ultracold atoms immersed in a Bose-Einstein-condensate vortex lattice
+    arXiv:1711.10234 [cond-mat.quant-gas]
+    https://arxiv.org/abs/1711.10234
 '''
 
 import sys
@@ -20,6 +26,8 @@ cdef class Gutzwiller:
     Encodes the Gutzwiller-ansatz parameters, their evolution through
     the Metropolis Monte Carlo algorithm, and the measurement of
     relevant observables (energy, density, condensate density).
+
+    See Eq. (11) in https://arxiv.org/abs/1711.10234.
     '''
 
     cdef public double beta
