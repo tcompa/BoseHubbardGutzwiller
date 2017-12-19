@@ -1,5 +1,5 @@
 # BoseHubbardGutzwiller
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.846905.svg)](https://doi.org/10.5281/zenodo.846905)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.846904.svg)](https://doi.org/10.5281/zenodo.846904)
 [![Build Status](https://travis-ci.org/tcompa/BoseHubbardGutzwiller.svg?branch=master)](https://travis-ci.org/tcompa/BoseHubbardGutzwiller)
 
 ## What is this?
