@@ -1,3 +1,5 @@
+#cython: language_level=3
+
 '''
 Program: lib_gutzwiller_simulated_annealing.pyx
 Created: Tue Aug 22 22:25:31 CEST 2017
